@@ -1,0 +1,7 @@
+## Abstract
+
+This repository extends the cutting-edge **BEVFormer** framework, a novel approach for learning unified Bird's-Eye-View (BEV) representations using spatiotemporal transformers to support various autonomous driving perception tasks. The original BEVFormer work, as described by its authors, effectively exploits both spatial and temporal information by interacting with spatial and temporal space through predefined grid-shaped BEV queries. They achieved state-of-the-art results with **56.9% NDS** on the nuScenes test set.
+
+A significant portion of the core BEVFormer architecture and the initial BEV segmentation capabilities within this repository are derived from the work found in the **[BEVFormer_segmentation_detection](https://github.com/Bin-ze/BEVFormer_segmentation_detection/tree/master)** repository.All the attributions to the original authors for their foundational contribution.
+
+Building upon this robust foundation, my contribution focuses on integrating **interpretability scripts** to provide deeper insights into the model's decision-making process. These interpretability scripts are my own addition, aiming to enhance the understanding and analysis of this powerful model.
