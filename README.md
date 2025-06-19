@@ -32,4 +32,4 @@ After setting up the repository, you will find the following tools related to th
   - `generate_perturbed_data.py`: Helper functions to create perturbed samples for testing.
   - `metrics.py`: Computes and plots AUC metrics from the perturbation experiments.
 
-These tools provide a framework for both visual and quantitative analysis of the model’s behavior, helping to better understand and evaluate the interpretability of BEV-based perception systems.
+
