@@ -238,7 +238,7 @@ def main():
     print("PRINT MODEL:")
     print(model)
 
-    #x defecto
+    #Original execution by bevformer, if support image after inference wants to be generated is necessary the use of single_gpu_test
     """
     if not distributed:
         print("USING SINGLE GPU TEST")
@@ -255,7 +255,7 @@ def main():
         outputs = multi_gpu_test(model, data_loader, args.tmpdir, args.gpu_collect)
     """
 
-    """#Bev feature extraction
+    #Model inference with potential feature extraction
     map_enable = True
     if not distributed:
         model = MMDataParallel(model, device_ids=[0])
@@ -338,11 +338,11 @@ def main():
 
             print(f"[INFO] Saved {len(bev_feats)} raw BEV features to {args.save_raw_bev}")
     
-    """
+    
 
 
     
-    # Traduccio single gpu test
+    # Traduccio single gpu test (sense guardar imatges, només inferencia i evaluació)
     """
     map_enable = True
     if not distributed:
