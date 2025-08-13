@@ -4,7 +4,7 @@ This repository builds upon the **BEVFormer** framework, a novel approach for le
 
 The base architecture and initial BEV segmentation capabilities used here are adapted from the [BEVFormer_segmentation_detection](https://github.com/Bin-ze/BEVFormer_segmentation_detection/tree/master) repository.
 
-This extended version introduces **interpretability tools** specifically designed to gain insights into the model’s internal decision-making processes. These contributions include a suite of saliency-based visualization and evaluation techniques developed as part of my Bachelor's Thesis that you can find [here](https://drive.google.com/file/d/1vzmIWuIIxkZz8ZIK9O9OmVCoMd3pDwO4/view?usp=sharing).
+This extended version introduces **interpretability tools** specifically designed to gain insights into the model’s internal decision-making processes. These contributions include a suite of saliency-based visualization and evaluation techniques developed as part of my [Bachelor's Thesis](https://drive.google.com/file/d/1vzmIWuIIxkZz8ZIK9O9OmVCoMd3pDwO4/view?usp=sharing).
 
 ## Usage
 
